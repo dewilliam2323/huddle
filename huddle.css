@@ -1,0 +1,85 @@
+body{
+margin:0px;
+font-family:poppins;
+}
+
+
+
+a{
+margin:0px 10px;
+text-decoration:none;
+Font-size:18px;
+color:white
+}
+
+
+a:hover{
+color:violet;
+font-weight:bold
+}
+
+
+
+.generalcontainer{
+background-color:#674BB1;
+min-height: 100vh;
+background-image: url("./bg-desktop.svg")
+
+}
+
+
+.headercontainer{
+height:100px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 0px 50px;
+margin-bottom: 50px;
+}
+
+.imagetextcontainer {
+display: flex;
+justify-content: space-between
+
+}
+
+
+
+.textContainer{
+max-width: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+
+h1{
+font-size: 30px;
+margin:0px
+}
+
+
+
+button{
+height:50px;
+width:220px;
+border-radius: 100px;
+border:none;
+background-color:white;
+color:#674BB1;
+font-family:poppins
+}
+
+button:hover{
+color:red
+
+}
+
+
+
+
+
+
+
+
+
+
